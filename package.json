@@ -1,0 +1,28 @@
+{
+  "name": "noman-x-yamdhud",
+  "version": "1.0.0",
+  "description": "Noman X Yamdhud - WhatsApp Pairing & Message Sending Dashboard",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "baileys",
+    "pairing",
+    "bot",
+    "noman"
+  ],
+  "author": "NOMAN",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^6.7.9",
+    "express": "^4.21.2",
+    "pino": "^9.5.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
